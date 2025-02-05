@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
         <div class="container">
       <a class="navbar-brand" href="#">
         <img src="https://media.licdn.com/dms/image/v2/C560BAQFp8ZBY_-P05A/company-logo_200_200/company-logo_200_200/0/1637757614009/aakruti_solutions_logo?e=2147483647&v=beta&t=s7I5HHoK_8MOaZrUUZg76uwfFcpN3a-JvLZe4ZYT1UY"
@@ -21,10 +21,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-link active" id='navItem1' href="#">HOME <span class="sr-only">(current)</span></a>
-          <a class="nav-link" id='navItem2' href="#">ABOUT US </a>
-          <a class="nav-link" id='navItem3' href="#">PRODUCTS</a>
-          <a class="nav-link" id='navItem4' href="#">CLIENTS</a>
+          <a class="nav-link active" id='navItem1' href="#homeSection">HOME <span class="sr-only">(current)</span></a>
+          <a class="nav-link" id='navItem2' href="#aboutSection">ABOUT US </a>
+          <a class="nav-link" id='navItem3' href="#products">PRODUCTS</a>
+          <a class="nav-link" id='navItem4' href="#clients">CLIENTS</a>
           <a class="nav-link" id='navItem5' href="#">CONTACT US</a>
         </div>
       </div>
@@ -34,7 +34,7 @@
      <section id="homeSection">
         <div
       id="carouselExampleIndicators"
-      class="carousel slide container"
+      class="carousel slide container ml - 5"
       data-ride="carousel"
 
     >
@@ -62,7 +62,7 @@
                 <p class="home-description">Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry. Lorem Ipsum
                 </p>
-                <button class="read-more-button" onclick="onToggleText()">Readmore..</button>
+                <button class="read-more-button">Readmore..</button>
               </div>
         </div>
         <div class="carousel-item">
@@ -71,7 +71,7 @@
                 <p class="home-description">Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry. Lorem Ipsum
                 </p>
-                <button class="read-more-button" onclick="onToggleText()">Readmore..</button>
+                <button class="read-more-button">Readmore..</button>
               </div>
         </div>
       </div>
@@ -112,7 +112,99 @@
             alt='working' class='about-img'/>
         </div>
     </section>
-
+    <!-- create products section -->
+    <section id='products'>
+        <h1 class='product-heading'>What We do</h1>
+        <p class='product-description'>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum Lorem Ipsum is simply dummy text of the prinating
+        </p>
+        <div class='images-container'>
+          <div class='image-container'>
+              <img src='https://img.freepik.com/free-photo/front-view-man-working-eco-friendly-wind-power-project-with-laptop-wind-turbines_23-2148847764.jpg?t=st=1738563858~exp=1738567458~hmac=cc46a7d5fb5b5bcd4942c1ee332f8c5940e7e0fe4b10c5856e561eff9ec6d10a&w=900'
+              alt='' class='image'/>
+              <label class='label-text'>Self-adhesive Labels</label>
+          </div>
+          <div class='image-container'>
+              <img src='https://img.freepik.com/free-photo/close-up-hand-holding-tube_23-2148794458.jpg?t=st=1738574468~exp=1738578068~hmac=78e7e0a7e7ab8899495c564b35ef9bca02175680886b98d80809b29694f96bff&w=360'
+              alt='' class='image'/>
+              <label class='label-text'>Tamper evident labels</label>
+          </div>
+          <div class='image-container'>
+              <img src='https://img.freepik.com/free-photo/male-pharmacist-working-drugstore_23-2150359211.jpg?uid=R79145184&ga=GA1.1.829025863.1738515082&semt=ais_hybrid'
+              alt='' class='image'/>
+              <label class='label-text'>VDP & 100% Inspection</label>
+          </div>
+        </div>
+        <button class='button'>More..</button>
+      </section>
+    <!-- create our clients -->
+    <section id="clients">
+        <h1 class="clients-heading">Clients</h1>
+        
+    </section>
+    <!-- create footer section -->
+    <footer class='footer'>
+        <div class='top-section'>
+          <div class='company-description'>
+            <h1 class='webpack-heading'>WEBPACK</h1>
+            <p class='description'>Lorem Ipsum is empty dummy text of the printing
+              and typesetting industry Lorem Ipsum Lorem Ipsum
+              is simply dumply text of the printing and typesetting industry
+              Lorem Ipsum Lorem Ipsum
+              is simply dumply text of the printing and typesetting industry
+            </p>
+          <div>
+            <PiFacebookLogo class='icon'/>
+            <CiInstagram class='icon'/>
+            <CiTwitter class='icon'/>
+            <CiLinkedin class='icon'/>
+          </div>
+        </div>
+  
+        <div class='company-links'>
+          <h2 class='company-heading'>Company</h2>
+          <div class='links-section'>
+            <MdNavigateNext class='next-icon'/>
+            <p class='link'>About us</p>
+          </div>
+          <div class='links-section'>
+            <MdNavigateNext class='next-icon'/>
+            <p class='link'>Products</p>
+          </div>
+          <div class='links-section'>
+            <MdNavigateNext class='next-icon'/>
+            <p class='link'>Clients</p>
+          </div>
+          <div class='links-section'>
+            <MdNavigateNext class='next-icon'/>
+            <p class='link'>Terms and Conditions</p>
+          </div>
+        </div>
+        <div class='company-contact-details'>
+          <h2 class='company-heading'>Get in touch</h2>
+          <div class='contact-information'>
+            <MdOutlinePhoneInTalk/>
+            <p class='contact-details'>+91 8989898989</p>
+          </div>
+          <div class='contact-information'>
+            <TfiEmail/>
+            <p class='contact-details'>info@webpacklabels.com</p>
+          </div>
+          <div class='contact-information'>
+            <MdOutlineLocationOn/>
+            <p class='contact-details'>Plat No.150/3,S.V.Industrial Estate,<br/>
+            I.D.A Bollaram,Jinnaram (M),<br/>
+            Sangareddy (D), Hyderbad - 502325</p>
+          </div>
+        </div>
+        </div>
+        <div class='line'></div>
+        <div class='copy-rights-container'>
+          <p class='copy-heading'>Copy rights @ 2025 All rights reserved</p>
+          <p class='copy-heading'>Designed by <span className='name'>Aakruti</span></p>
+        </div>
+      </footer>
     <!-- adding javascript  -->
     <script type="text/javascript" src="./index.js"></script>
   </body>
