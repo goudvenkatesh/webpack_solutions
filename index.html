@@ -31,7 +31,7 @@
     </div>
     </nav>
     <!-- create Home Section -->
-     <section id="home-section">
+     <section id="homeSection">
         <div
       id="carouselExampleIndicators"
       class="carousel slide container"
@@ -52,27 +52,26 @@
           <div class="text-container">
             <h1 class="home-heading">Highest Quality Packaging Solutions</h1>
             <p class="home-description">Lorem Ipsum is simply dummy text of the printing
-                and typesetting industry. Lorem Ipsum
-            </p>
-            <button class="read-more-button">Readmore..</button>
+                and typesetting industry. Lorem Ipsum</p>
+            <button class="read-more-button">ReadMore..</button>
           </div>
         </div>
         <div class="carousel-item">
             <div class="text-container">
-                <h1>Highest Quality Packaging Solutions</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing
+                <h1 class="home-heading">Highest Quality Packaging Solutions</h1>
+                <p class="home-description">Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry. Lorem Ipsum
                 </p>
-                <button>Readmore..</button>
+                <button class="read-more-button" onclick="onToggleText()">Readmore..</button>
               </div>
         </div>
         <div class="carousel-item">
             <div class="text-container">
-                <h1>Highest Quality Packaging Solutions</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing
+                <h1 class="home-heading">Highest Quality Packaging Solutions</h1>
+                <p class="home-description">Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry. Lorem Ipsum
                 </p>
-                <button>Readmore..</button>
+                <button class="read-more-button" onclick="onToggleText()">Readmore..</button>
               </div>
         </div>
       </div>
@@ -97,26 +96,25 @@
     </div>
     </section>
      <!-- create about section -->
-     <section id='about'>
+    <section id='aboutSection'>
         <div class='about-text-container'>
-          <div class='heading-underline'>
-            <h1 class='heading'>About us</h1>
-            <div class='underline'></div>
-          </div>
-            <p>Lorem Ipsum is empty dummy text of the printing
-            and typesetting industry Lorem Ipsum Lorem Ipsum
-            is simply dumply text of the printing and typesetting industry
-            Lorem Ipsum Lorem Ipsum
-            is simply dumply text of the printing and typesetting industry
+            <div class='heading-underline-container'>
+                <h1 class='about-heading'>About us</h1>
+                <div class='underline'></div>
+            </div>
+            <p id="text" class="about-desc">Lorem Ipsum is simply dummy te...
+
             </p>
-            <button class='readmore-btn'>Read More...<span><MdNavigateNext/></span></button>
+            <button class='about-btn' id="readButton" onclick="onToggleText()">ReadMore..<span></span></button>
         </div>
         <div class='img-container'>
-        <img src='https://img.freepik.com/free-photo/close-up-side-view-engineer-architect-supervising-construction_23-2148233789.jpg?t=st=1738561139~exp=1738564739~hmac=dd5bb3ca0879185c818372edb5b3e6f50946f659acb2e00af35dd596d4e4f5e9&w=900'
-         alt='working' class='about-img'/>
+            <img src='https://img.freepik.com/free-photo/close-up-side-view-engineer-architect-supervising-construction_23-2148233789.jpg?t=st=1738561139~exp=1738564739~hmac=dd5bb3ca0879185c818372edb5b3e6f50946f659acb2e00af35dd596d4e4f5e9&w=900'
+            alt='working' class='about-img'/>
         </div>
     </section>
 
+    <!-- adding javascript  -->
+    <script type="text/javascript" src="./index.js"></script>
   </body>
 
 </html>
