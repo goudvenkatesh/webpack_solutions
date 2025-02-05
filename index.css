@@ -154,13 +154,17 @@ body{
     margin-left: 2rem;
 }
 .about-desc{
+    font-size: medium;
+    font-family: "Roboto";
+    color: #2d2b2b;
 }
 .about-btn{
     border: none;
     border-radius: 0.5rem;
     background: #5052c1;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
 }
 .about-img{
     width: 350px;
@@ -234,7 +238,20 @@ body{
     margin-bottom: 2rem;
     color: #20205c;
 }
-
+.clients-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliders{
+    display: flex;
+}
+.slider{
+    border: 1px solid black;
+    padding: 2rem;
+    margin-right:0.5rem;
+    margin-left: 0.5rem;
+}
 /* create footer css */
 .footer{
     background:#000000;
@@ -266,8 +283,7 @@ body{
 }
 .icon{
     width: 1.8rem;
-    height: 3.5rem;
-    margin-right: 0.5rem;
+    height: 1.5rem;
 }
 
 .company-links{
@@ -278,9 +294,11 @@ body{
 }
 .links-section{
     display: flex;
+    align-items: center;
 }
 .next-icon{
     color: #ffffff;
+    margin-right: 0.5rem;
 }
 .link{
     font-family: "Roboto";

@@ -7,12 +7,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./index.css"/>
+    <title>Webpack Solutions</title>
+    <script src="https://kit.fontawesome.com/506e542bea.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
         <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#homeSection">
         <img src="https://media.licdn.com/dms/image/v2/C560BAQFp8ZBY_-P05A/company-logo_200_200/company-logo_200_200/0/1637757614009/aakruti_solutions_logo?e=2147483647&v=beta&t=s7I5HHoK_8MOaZrUUZg76uwfFcpN3a-JvLZe4ZYT1UY"
         class="navbar-logo"/>
       </a>
@@ -105,7 +107,7 @@
             <p id="text" class="about-desc">Lorem Ipsum is simply dummy te...
 
             </p>
-            <button class='about-btn' id="readButton" onclick="onToggleText()">ReadMore..<span></span></button>
+            <button class='about-btn' id="readButton" onclick="onToggleText()">ReadMore..<i class="fa-solid fa-chevron-right next-icon"></i></button>
         </div>
         <div class='img-container'>
             <img src='https://img.freepik.com/free-photo/close-up-side-view-engineer-architect-supervising-construction_23-2148233789.jpg?t=st=1738561139~exp=1738564739~hmac=dd5bb3ca0879185c818372edb5b3e6f50946f659acb2e00af35dd596d4e4f5e9&w=900'
@@ -141,7 +143,15 @@
     <!-- create our clients -->
     <section id="clients">
         <h1 class="clients-heading">Clients</h1>
-        
+        <div class="clients-container">
+            <button id="previousBtn"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="sliders">
+                <div class="slider">
+                    <h2 id="sliderText">Dr.Reddy's</h2>
+                </div>
+            </div>
+            <button id="nextBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
     </section>
     <!-- create footer section -->
     <footer class='footer'>
@@ -155,44 +165,44 @@
               is simply dumply text of the printing and typesetting industry
             </p>
           <div>
-            <PiFacebookLogo class='icon'/>
-            <CiInstagram class='icon'/>
-            <CiTwitter class='icon'/>
-            <CiLinkedin class='icon'/>
+            <i class="fa-brands fa-facebook icon"></i>
+            <i class="fa-brands fa-instagram icon"></i>
+            <i class="fa-brands fa-square-twitter icon"></i>
+            <i class="fa-brands fa-linkedin icon"></i>
           </div>
         </div>
   
         <div class='company-links'>
           <h2 class='company-heading'>Company</h2>
           <div class='links-section'>
-            <MdNavigateNext class='next-icon'/>
+            <i class="fa-solid fa-chevron-right next-icon"></i>
             <p class='link'>About us</p>
           </div>
           <div class='links-section'>
-            <MdNavigateNext class='next-icon'/>
+            <i class="fa-solid fa-chevron-right next-icon"></i>
             <p class='link'>Products</p>
           </div>
           <div class='links-section'>
-            <MdNavigateNext class='next-icon'/>
+            <i class="fa-solid fa-chevron-right next-icon"></i>
             <p class='link'>Clients</p>
           </div>
           <div class='links-section'>
-            <MdNavigateNext class='next-icon'/>
+            <i class="fa-solid fa-chevron-right next-icon"></i>
             <p class='link'>Terms and Conditions</p>
           </div>
         </div>
         <div class='company-contact-details'>
           <h2 class='company-heading'>Get in touch</h2>
           <div class='contact-information'>
-            <MdOutlinePhoneInTalk/>
+            <i class="fa-solid fa-phone"></i>
             <p class='contact-details'>+91 8989898989</p>
           </div>
           <div class='contact-information'>
-            <TfiEmail/>
+            <i class="fa-solid fa-envelope"></i>
             <p class='contact-details'>info@webpacklabels.com</p>
           </div>
           <div class='contact-information'>
-            <MdOutlineLocationOn/>
+            <i class="fa-solid fa-location-dot"></i>
             <p class='contact-details'>Plat No.150/3,S.V.Industrial Estate,<br/>
             I.D.A Bollaram,Jinnaram (M),<br/>
             Sangareddy (D), Hyderbad - 502325</p>
@@ -202,7 +212,7 @@
         <div class='line'></div>
         <div class='copy-rights-container'>
           <p class='copy-heading'>Copy rights @ 2025 All rights reserved</p>
-          <p class='copy-heading'>Designed by <span className='name'>Aakruti</span></p>
+          <p class='copy-heading'>Designed by <span class='name'>Aakruti</span></p>
         </div>
       </footer>
     <!-- adding javascript  -->
