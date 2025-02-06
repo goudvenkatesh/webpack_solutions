@@ -1,112 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
-body{
+
+body {
     scroll-behavior: smooth;
 }
 
-.navbar-logo{
+.navbar-logo {
     width: 80px;
     height: 70px;
     border-radius: 0.5rem;
 }
-#navItem1{
+
+#navItem1 {
     color: #ffffff;
     font-family: "Roboto";
 }
-#navItem1:hover{
+
+#navItem1:hover {
     border-bottom: 2px solid #323299;
 }
+
 @media screen and (max-width:767px) {
-    #navItem1:hover{
+    #navItem1:hover {
         border-bottom: none;
     }
 }
-#navItem2{
+
+#navItem2 {
     color: #ffffff;
     font-family: "Roboto";
 }
-#navItem2:hover{
+
+#navItem2:hover {
     border-bottom: 2px solid #323299;
 }
+
 @media screen and (max-width:767px) {
-    #navItem2:hover{
+    #navItem2:hover {
         border-bottom: none;
     }
 }
-#navItem3{
+
+#navItem3 {
     color: #ffffff;
     font-family: "Roboto";
 }
-#navItem3:hover{
+
+#navItem3:hover {
     border-bottom: 2px solid #323299;
 }
+
 @media screen and (max-width:767px) {
-    #navItem3:hover{
+    #navItem3:hover {
         border-bottom: none;
     }
 }
-#navItem4{
+
+#navItem4 {
     color: #ffffff;
     font-family: "Roboto";
 }
-#navItem4:hover{
+
+#navItem4:hover {
     border-bottom: 2px solid #323299;
 }
+
 @media screen and (max-width:767px) {
-    #navItem4:hover{
+    #navItem4:hover {
         border-bottom: none;
     }
 }
-#navItem5{
+
+#navItem5 {
     color: #ffffff;
     font-family: "Roboto";
 }
-#navItem5:hover{
+
+#navItem5:hover {
     border-bottom: 2px solid #323299;
 }
+
 @media screen and (max-width:767px) {
-    #navItem5:hover{
+    #navItem5:hover {
         border-bottom: none;
     }
 }
+
 /* home section */
-#homeSection{
+#homeSection {
     background-image: url('https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041863.jpg?t=st=1738549908~exp=1738553508~hmac=5a34af6232606a2c64202341d6562ad1e0b8860cafed7c65a63c689eddb7894e&w=826');
     height: 80vh;
     background-size: cover;
     padding-top: 8rem;
 }
-.text-container{
+
+.text-container {
     max-width: 40rem;
     margin: 1.5rem 8rem;
 }
+
 @media screen and (max-width:767px) {
-    .text-container{
+    .text-container {
         max-width: 20rem;
         margin: 4rem 4rem;
     }
 }
-.home-heading{
+
+.home-heading {
     font-weight: 900;
     font-family: "Roboto";
     color: #7fb2e5;
 }
+
 @media screen and (max-width:767px) {
-    .home-heading{
-        font-weight:700;
-        font-size:28px;
+    .home-heading {
+        font-weight: 700;
+        font-size: 28px;
     }
 }
-.home-description{
+
+.home-description {
     font-family: "Roboto";
     color: #ffffff;
     font-size: 22px;
 }
+
 @media screen and (max-width:767px) {
-    .home-description{
+    .home-description {
         font-size: 16px;
     }
 }
-.read-more-button{
+
+.read-more-button {
     background: white;
     color: black;
     border: none;
@@ -114,51 +138,60 @@ body{
     padding: 0.5rem 1rem;
     font-family: "Roboto";
 }
+
 /* create about section */
-#aboutSection{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   height: calc(80vh - 4rem);
-   width: 100vw;
-   max-width: 96rem;
+#aboutSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(80vh - 4rem);
+    width: 100vw;
+    max-width: 96rem;
 }
-@media screen and (max-width:767px){
-    #aboutSection{
+
+@media screen and (max-width:767px) {
+    #aboutSection {
         flex-direction: column;
     }
 }
-.about-text-container{
+
+.about-text-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
 }
-.heading-underline-container{
+
+.heading-underline-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width:767px) {
-    .heading-underline-container{
+    .heading-underline-container {
         flex-direction: column;
     }
 }
-.about-heading{
+
+.about-heading {
     color: #5052c1;
     font-family: "Roboto";
 }
-.underline{
+
+.underline {
     border-bottom: 3px solid #5052c1;
     width: 150px;
     margin-left: 2rem;
 }
-.about-desc{
+
+.about-desc {
     font-size: medium;
     font-family: "Roboto";
     color: #2d2b2b;
 }
-.about-btn{
+
+.about-btn {
     border: none;
     border-radius: 0.5rem;
     background: #5052c1;
@@ -166,12 +199,13 @@ body{
     padding: 0.5rem 1.5rem;
     margin-right: 1.5rem;
 }
-.about-img{
+
+.about-img {
     width: 350px;
 }
 
 /* create product section */
-#products{
+#products {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,29 +215,34 @@ body{
     padding: 4rem;
     width: 100vw;
 }
-.product-heading{
+
+.product-heading {
     font-family: "Roboto";
     font-size: 2rem;
     font-weight: 700;
     color: #20205c;
 }
-.product-description{
+
+.product-description {
     font-family: "Roboto";
     font-size: 1rem;
     text-align: center;
     max-width: 40rem;
     padding: 0 2rem;
 }
-.images-container{
+
+.images-container {
     display: flex;
     margin: 2rem;
 }
-@media screen and (max-width:767px){
-    .images-container{
+
+@media screen and (max-width:767px) {
+    .images-container {
         flex-direction: column;
     }
 }
-.image-container{
+
+.image-container {
     display: flex;
     flex-direction: column;
     background: white;
@@ -212,14 +251,17 @@ body{
     padding-bottom: 1rem;
     padding-right: 1rem;
 }
-.image{
+
+.image {
     width: 215px;
     height: 200px;
 }
-.label-text{
+
+.label-text {
     padding-left: 0.5rem;
 }
-.button{
+
+.button {
     border: none;
     background: #20205c;
     color: #fff;
@@ -228,109 +270,130 @@ body{
 }
 
 /* create clients css */
-#clients{
+#clients {
     background-color: #e5e1e1;
     padding: 4rem;
     height: calc(60vh - 4rem);
 }
-.clients-heading{
+
+.clients-heading {
     text-align: center;
     margin-bottom: 2rem;
     color: #20205c;
 }
-.clients-container{
+
+.clients-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sliders{
+
+.sliders {
     display: flex;
 }
-.slider{
+
+.slider {
     border: 1px solid black;
     padding: 2rem;
-    margin-right:0.5rem;
+    margin-right: 0.5rem;
     margin-left: 0.5rem;
 }
+
 /* create footer css */
-.footer{
-    background:#000000;
+.footer {
+    background: #000000;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 2rem 8rem;
 }
-.top-section{
+
+.top-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 1.5rem;
 }
-.company-description{
-    max-width: 40rem;
+
+.company-description {
+    width: 40%;
     color: #7f7b7b;
     margin-top: 1.8rem;
+    margin-right: 2rem;
 }
-.webpack-heading{
+
+.webpack-heading {
     color: #e4dbdb;
     font-size: 32px;
 }
-.description{
+
+.description {
     font-weight: 400;
     font-size: 1rem;
     max-width: 40rem;
 }
-.icon{
+
+.icon {
     width: 1.8rem;
     height: 1.5rem;
 }
 
-.company-links{
-    width: 40rem;
+.company-links {
+    width: 40%;
 }
-.company-heading{
+
+.company-heading {
     color: #fff;
 }
-.links-section{
+
+.links-section {
     display: flex;
     align-items: center;
 }
-.next-icon{
+
+.next-icon {
     color: #ffffff;
     margin-right: 0.5rem;
 }
-.link{
+
+.link {
     font-family: "Roboto";
     font-weight: 500;
     color: #7f7b7b;
 }
-.company-contact-details{
-    width: 450px;
+
+.company-contact-details {
+    width: 45%;
 }
-.contact-information{
+
+.contact-information {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     color: #7f7b7b;
 }
-.contact-details{
+
+.contact-details {
     margin-left: 0.4rem;
 }
 
-.copy-rights-container{
+.copy-rights-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 1.5rem;
 }
-.copy-heading{
+
+.copy-heading {
     color: #7f7b7b;
 }
-.name{
+
+.name {
     color: #007bff;
 }
-.line{
+
+.line {
     max-width: 100vw;
     border: 1px solid grey;
     margin-bottom: 1rem;
